@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./script.js" defer></script>
+    <title>Book List</title>
+  </head>
+  <body>
+    <h1>My <span style="color: rgb(0, 150, 199)">Book</span> List</h1>
+
+    <!-- <p class="button button--success">Added to the list</p>
+    <p class="button button--fail">Add Fail</p> -->
+    <form action="#">
+      <div class="input">
+        <label for="title">Title: </label>
+        <input type="text" id="title" name="title" autocomplete="off" />
+      </div>
+
+      <div class="input">
+        <label for="author">Author: </label>
+        <input type="text" id="author" name="author" autocomplete="off" />
+      </div>
+
+      <div class="input">
+        <label for="id">ID: </label>
+        <input type="text" id="id" name="id" autocomplete="off" />
+      </div>
+
+      <button class="button button--blue">Add Book</button>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Author</th>
+          <th>ID</th>
+          <th></th>
+        </tr>
+      </thead>
+
+      <tbody id="book-list">
+        <!-- Add later -->
+
+        <tr class="book">
+          <td>Doraemon</td>
+          <td>Fujiko Fujio</td>
+          <td>01</td>
+          <td><button class="button button--red">X</button></td>
+        </tr>
+
+        <tr class="book">
+          <td>One Piece</td>
+          <td>Eiichiro Oda</td>
+          <td>02</td>
+          <td><button class="button button--red">X</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
